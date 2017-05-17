@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body onload="carga()">
+<button id="myBtn">boton</button>
+<p id="demo"></p>
+<h1 id="mouse" onmouseover="mouseDentro()" onmouseout="mouseFuera()">Mouse aqui</h1>
+
+<script>
+document.getElementById("myBtn").addEventListener("click", function(){
+    document.getElementById("demo").innerHTML = "Hola Mundo";
+});
+</script>
+ <script src="javascript/main.js"></script>
+</body>
+</html>
